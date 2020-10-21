@@ -1,7 +1,7 @@
 # Tasker-Challenging Task submission
 Hello Welcome to tasker!
 
-This is a simple task management application, where you can list your daily tasks. You can also catergorize them based on their status.
+This is a simple task management application, where you can list your daily tasks. You can also categorize them based on their status.
 ##It's front-end made up of.
 
     HTML
