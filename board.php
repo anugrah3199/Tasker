@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <div class="col ">
-                    <div class="alert alert-danger" role="alert">
+                    <div class="alert alert-danger shadow" role="alert">
                         <h4>Backlog</h4>
                     </div>
                     
@@ -77,7 +77,7 @@
                                     while ($row = mysqli_fetch_array($result)) {
                                         $tn = $row['project_task_num'];
                                         echo "
-                                        <div class='card border-danger mb-3' style='max-width: 22rem;'>
+                                        <div class='card border-danger mb-3 shadow' style='max-width: 22rem;'>
                                             <div class='card-header'>".$row['task_name']."</div>
                                             <div class='card-body text-danger'>
                                                 
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="alert alert-primary" role="alert">
+                    <div class="alert alert-primary shadow" role="alert">
                         <h4>In progress</h4>
                     </div>
                     
@@ -122,7 +122,7 @@
                                     while ($row = mysqli_fetch_array($result)) {
                                         $tn = $row['project_task_num'];
                                         echo "
-                                        <div class='card border-secondary mb-3' style='max-width: 22rem;'>
+                                        <div class='card border-secondary mb-3 shadow' style='max-width: 22rem;'>
                                             <div class='card-header'>".$row['task_name']."</div>
                                             <div class='card-body text-secondary'>
                                                 
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="col ">
-                    <div class="alert alert-success" role="alert">
+                    <div class="alert alert-success shadow" role="alert">
                         <h4>Done</h4>
                     </div>
                     
@@ -167,7 +167,7 @@
                                     while ($row = mysqli_fetch_array($result)) {
                                         $tn = $row['project_task_num'];
                                         echo "
-                                        <div class='card border-success mb-3' style='max-width: 22rem;'>
+                                        <div class='card border-success mb-3 shadow' style='max-width: 22rem;'>
                                             <div class='card-header'>".$row['task_name']."</div>
                                             <div class='card-body text-success'>
                                                 
